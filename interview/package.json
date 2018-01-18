@@ -1,0 +1,12 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "面试题",
+  "main": "index.js",
+  "scripts": {
+    "start":"gitbook serve --port 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
