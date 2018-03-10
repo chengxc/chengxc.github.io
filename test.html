@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">abc</div>
+        <div class="right">cde</div>
+    </div>
+</body>
+<style>
+    .container{
+        position: relative;
+    }
+    .left,.right{
+        display: inline-block;
+    }
+    .left{
+        width:30px;
+        height:30px;
+        background-color: lightblue
+    }
+    .right{
+        position: absolute;
+        left:30px;
+        right:0;
+        height:30px;
+        background-color: pink;
+    }
+</style>
+</html>
